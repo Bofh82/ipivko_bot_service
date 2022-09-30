@@ -1,0 +1,7 @@
+CREATE TABLE orders (
+     id VARCHAR(40) PRIMARY KEY NOT NULL,
+     created_at TIMESTAMP NOT NULL,
+     customer VARCHAR(255) NOT NULL,
+     beer VARCHAR(255) NOT NULL,
+     volume DECIMAL(15, 3) NOT NULL
+)

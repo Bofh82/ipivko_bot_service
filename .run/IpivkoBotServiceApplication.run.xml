@@ -1,0 +1,14 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="IpivkoBotServiceApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+    <option name="ACTIVE_PROFILES" />
+    <envs>
+      <env name="DATASOURCE_HOST" value="db.bromen.fun" />
+      <env name="DATASOURCE_PORT" value="5444" />
+    </envs>
+    <module name="ipivko_bot_service" />
+    <option name="SPRING_BOOT_MAIN_CLASS" value="com.example.ipivko_bot_service.IpivkoBotServiceApplication" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
